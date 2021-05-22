@@ -10,3 +10,87 @@
     text-decoration: none;
     box-sizing: border-box;
   }
+
+  body {
+      font-family: 'Open Sans', sans-serif;
+      background-color: cornflowerblue;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-transform: uppercase;
+  }
+
+  .pricing-table {
+      background-color: white;
+      display: flex;
+      width: 100%;
+      max-width: 1010px;
+      border-radius: 10px;
+      justify-content: space-between;
+      border-bottom: 1px solid lightblue;
+  }
+
+  .pricing-plan {
+      width: 33%;
+      border-right: 1px solid lightblue;
+      padding: 15px 25px;
+  }
+
+  .pricing-plan img {
+      display: block;
+      margin: 0 auto;
+      width: 85%;
+      padding: 30px;
+  }
+
+  /* ------------- HEADER ---------------*/
+
+  .pricing-header {
+      text-align: center;
+      font-size: 1.1rem;
+      color: gray;
+      margin-bottom: 2em;
+  }
+
+  .pricing-features {
+
+  }
+
+  .pricing-features-item {
+      line-height: 1.8;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      padding-left: 10px;
+      
+      border-top: 1px solid lightblue;
+      color: blue;
+      font-size: 0.85rem;
+      width: 90%;
+      margin: 0 auto;
+      text-align: center;
+  }
+
+  .pricing-price {
+      display: block;
+      text-align: center;
+      font-size: 2rem;
+      border-top: 1px solid lightblue;
+      padding-top: 25px;
+      padding-bottom: 25px;
+      color: blue;
+  }
+
+  .price-butt {
+      text-align: center;
+      margin-bottom: 40px;
+  }
+
+  .pricing-button {
+      display: inline-block;
+      border-radius: 5px;
+      border: 1px solid lightblue;
+      padding: 10px 25px;
+
+      
+  }
